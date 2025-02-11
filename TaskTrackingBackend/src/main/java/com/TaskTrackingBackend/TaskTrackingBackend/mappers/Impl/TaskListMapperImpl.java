@@ -16,11 +16,9 @@ public class TaskListMapperImpl implements TaskListMapper {
 
     private final TaskMapper taskMapper;
 
-
     public TaskListMapperImpl(TaskMapper taskMapper) {
         this.taskMapper = taskMapper;
     }
-
 
     @Override
     public TaskList toEntity(TaskListDTO taskListDTO) {
